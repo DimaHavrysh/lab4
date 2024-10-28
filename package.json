@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write .",
     "build": "webpack",
     "start": "webpack serve --open"
   },
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^3.3.3",
     "typescript": "^5.6.2",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
